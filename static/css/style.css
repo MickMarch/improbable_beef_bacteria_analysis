@@ -24,9 +24,15 @@ body {
     text-shadow: 2px 2px 0 #000;
 }
 
+.article-title {
+    text-align: center;
+    padding-bottom: 2ex;
+}
+
 .chart-info {
     margin-top: 0.7ex;
     margin-bottom: 2ex;
+    text-align: center;
 }
 
 .chart-outline {
