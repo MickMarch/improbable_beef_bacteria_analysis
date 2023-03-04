@@ -1,0 +1,37 @@
+:root {
+    --chart-outline-width: 0.3vh;
+}
+
+body {
+    background-color: lightblue;
+}
+
+.jumbotron {
+    background-image: url(../images/bacteria-jumbotron.png);
+    color: whitesmoke;
+
+}
+
+.small-text-shadow {
+    text-shadow: 1px 1px 0 #000;
+}
+
+.white-text {
+    color: white;
+}
+
+.large-text-shadow {
+    text-shadow: 2px 2px 0 #000;
+}
+
+.chart-info {
+    margin-top: 0.7ex;
+    margin-bottom: 2ex;
+}
+
+.chart-outline {
+    outline-color: rgb(69, 160, 164);
+    outline-width: var(--chart-outline-width);
+    outline-style: ridge;
+    margin: var(--chart-outline-width)
+}

@@ -2,11 +2,12 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
   <title>Belly Button Biodiversity</title>
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="static/css/style.css" />
 </head>
 
 <body>
@@ -14,8 +15,8 @@
   <div class="container">
     <div class="row">
       <div class="col-md-12 jumbotron text-center">
-        <h1>Belly Button Biodiversity Dashboard</h1>
-        <p>Use the interactive charts below to explore the dataset</p>
+        <h1 class="large-text-shadow">Belly Button Biodiversity Dashboard</h1>
+        <p class="small-text-shadow white-text">Use the interactive charts below to explore the dataset</p>
       </div>
     </div>
     <div class="row">
@@ -32,15 +33,19 @@
         </div>
       </div>
       <div class="col-md-5">
-        <div id="bar"></div>
+        <div id="bar" class="chart-outline"></div>
+        <p class="chart-info"><b>Bar Chart:</b> Displays the top 10 bacteria samples found per test subject</p>
       </div>
       <div class="col-md-5">
-        <div id="gauge"></div>
+        <div id="gauge" class="chart-outline"></div>
+        <p class="chart-info"><b>Gauge:</b> Displays the frequency the test subject washed their belly button</p>
       </div>
     </div>
     <div class="row">
       <div class="col-md-12">
-        <div id="bubble"></div>
+        <div id="bubble" class="chart-outline"></div>
+        <p class="chart-info"><b>Bubble Chart:</b> Visualizes all bacteria found per test subject. The larger the
+          bubble, the more bacteria of that type was found.</p>
       </div>
     </div>
   </div>
