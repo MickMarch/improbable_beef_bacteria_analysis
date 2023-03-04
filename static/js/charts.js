@@ -61,6 +61,7 @@ function buildCharts(sample) {
   // Deliverable 1: 2. Use d3.json to load the samples.json file 
   d3.json(dataPath).then((data) => {
     console.log(data);
+    var config = { responsive: true }
 
     // Deliverable 1: 3. Create a variable that holds the samples array. 
     var dataSamples = data.samples;
@@ -109,7 +110,7 @@ function buildCharts(sample) {
     };
 
     // Deliverable 1: 10. Use Plotly to plot the data with the layout. 
-    Plotly.newPlot('bar', barData, barLayout)
+    Plotly.newPlot('bar', barData, barLayout, config)
 
     // Deliverable 2: 1. Create the trace for the bubble chart.
     var bubbleTrace = {
@@ -140,7 +141,7 @@ function buildCharts(sample) {
     }
 
     // Deliverable 2: 3. Use Plotly to plot the data with the layout.
-    Plotly.newPlot("bubble", bubbleData, bubbleLayout);
+    Plotly.newPlot("bubble", bubbleData, bubbleLayout, config);
 
     // Deliverable 3: 4. Create the trace for the gauge chart.
     var gaugeTrace = {
@@ -169,7 +170,7 @@ function buildCharts(sample) {
     }
 
     // Deliverable 3: 6. Use Plotly to plot the gauge data and layout.
-    Plotly.newPlot('gauge', gaugeData, gaugeLayout);
+    Plotly.newPlot('gauge', gaugeData, gaugeLayout, config);
 
   });
 }
