@@ -6,4 +6,4 @@ The purpose of this project is to use `html`, `css`, and `javascript` to visuali
 
 ## Results
 
-The visualization can be found `[**HERE**](https://mickmarch.github.io/improbable_beef_bacteria_analysis/)`. The interactive visualization can be used by selecting a test subject from the dropdown menu.
+The visualization can be found [**HERE**](https://mickmarch.github.io/improbable_beef_bacteria_analysis/). The interactive visualization can be used by selecting a test subject from the dropdown menu.
